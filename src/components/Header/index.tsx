@@ -1,4 +1,3 @@
-import "./index.css"
 import logoImg from '../../assets/logo.svg'
 import openMenuIcon from '../../assets/icon-menu.svg'
 import closeMenuIcon from '../../assets/icon-menu-close.svg'
