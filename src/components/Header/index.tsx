@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between p-4">
+      <header className="flex items-center justify-between p-4 lg:w-full lg:max-w-10/12 lg:m-auto lg:pt-15">
         <img className="" src={logoImg} alt="newspapper-logo" />
         <button
           className="z-99"
@@ -27,7 +27,7 @@ function Header() {
           />
         </button>
         <nav
-          className={`${isMenuOpen ? "flex" : "hidden"} z-99 fixed top-0 left-0 h-screen w-50 bg-black/80 text-white flex-col items-end p-4 gap-3 lg:flex lg:flex-row lg:bg-transparent lg:static lg:w-auto lg:h-auto lg:text-black
+          className={`${isMenuOpen ? "flex" : "hidden"} z-99 fixed top-0 left-0 h-screen w-50 bg-black/80 text-[#868195] flex-col items-end p-4 gap-3 lg:flex lg:flex-row lg:bg-transparent lg:static lg:w-auto lg:h-auto lg:text-black lg:text-xl lg:gap-12
           
           `}
         >
